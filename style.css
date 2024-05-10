@@ -1,35 +1,35 @@
 
-
-#bckg{
-    background-color: #7C58A5;
-    height: 800px;
-    width: 1030px;
-    margin-left: 390px;
-    margin-top: 150px;
-    border-radius: 10px;
-}
-
-#pink{
+#maincolor{
     background-color: #FACFCC;
-    height: 600px;
-    width: 900px;
-    margin-left: 60px;
+    height: 1185px;
+    width: 1800px;
+    margin-left: 10px;
     border-radius: 20px;
-    margin-top: 100px;
+    margin-top: 30px;
 
 }
 #sign{
     background-color: black;
-    color: white;
-    border-radius: 15px;
-    height: 30px;
-    width: 80px;
+    -webkit-text-fill-color: white;
+    border-radius: 25px;
+    height: 40px;
+    width: 100px;
+    margin-bottom: 100px;
+}
+
+#baims{
+    font-family: serif;
+    font-weight: 50;
+    font-size: xx-large;
+    margin-bottom: 55px;
 }
 
 #topnav{
     display: flex;
     justify-content: center;
-    gap: 80px;
+    gap: 180px;
+    font-size: 20px;
+    margin-top: 15px;
 }
 
 #prg{
@@ -38,101 +38,180 @@
     gap: 100px;
 }
 #Study{
-    font-size: 50px;
+    font-size: 100px;
 }
 
 #white{
     background-color: white;
-    height: 155px;
-    width: 900px;
-    margin-left: 60px;
-    border-radius: 10px 10px 15px 15px;
+    height: 160px;
+    width: 1800px;
+    border-radius: 10px;
+    margin-top: 200px;
 }
 
 
+#text{
+    border: solid;
+    /* width: 0px; */
+    border-radius: 20px;
+    /* padding: 5px;  */
+    margin-top: 8px;
+    background-color: transparent;
+    height: 10px;
+}
+
+#whatdoyouwanttolearn{
+    width: 300px;
+    height: 40px;
+    border-radius: 25px;
+    display: flex;
+}
+
+#coursewithbaims{
+    font-size: 20px;
+}
+
 #nums{
-   font-size: 30px;
+   font-size: 70px;
    
 }
 
 #course{
-    font-size: 15px;
+    font-size: 20px;
+    
 
 }
 
-#last{
+#photo{
+    width: 650px;
+    height: 650px;
+}
+
+#coo{
+    margin-top: 15px;
+}
+
+#footer{
    display: flex; 
    justify-content: center;
-   gap: 150px;
+   gap: 300px;
 }
 
+#course{
+    font-size: 25px;
+}
 
-@media all and (min-width:280px) and (max-width:1024px){
+#instructor{
+    font-size: 12px;
+}
 
-    #bckg{
-        background-color: #7C58A5;
-        height: 800px;
-        width: 1030px;
-        margin-left: 390px;
-        margin-right: 390px;
-        margin-top: 150px;
-        border-radius: 10px;
-    }
-    
-    #pink{
+#signin{
+    font-size: 12px;
+}
+
+@media screen and (min-width:280px) and (max-width:480px){
+    #maincolor{
         background-color: #FACFCC;
-        height: 600px;
-        width: 900px;
-        margin-left: 60px;
-        border-radius: 20px;
-        margin-top: 100px;
+        height: 100px;
+        width: 100%;
+        margin-left: 0px;
+        border-radius: 0px;
+        height: 100%;
+        margin-top: 0px;
     
     }
     #sign{
         background-color: black;
-        color: white;
-        border-radius: 15px;
-        height: 30px;
-        width: 80px;
+        -webkit-text-fill-color: white;
+        border-radius: 25px;
+        /* height: 32px; */
+        /* width: 55px; */
+    }
+    
+    #baims{
+        font-family: serif;
+        font-size: 15px;
     }
     
     #topnav{
         display: flex;
+        flex-wrap: wrap;
         justify-content: center;
-        gap: 80px;
+        font-size: x-large;
+        gap: 10px;
+        font-size: 10px;
+        margin-top: 10px;
     }
     
     #prg{
         display: flex;
-        justify-content: center;
-        gap: 100px;
+        flex-wrap: wrap;
+        font-size: larger;
+        /* flex-wrap: wrap; */
+        gap: 10px;
     }
     #Study{
-        font-size: 50px;
+        font-size: 20px;
     }
     
     #white{
         background-color: white;
-        height: 155px;
-        width: 900px;
-        margin-left: 60px;
-        border-radius: 10px 10px 15px 15px;
+        height: 160px;
+        display: flex;
+        font-size: small;
+        width: 100%;
+        border-radius: 10px;
+        margin-top: 200px;
     }
+    
+    
+    #text{
+        border: solid;
+        width: 50px;
+         padding: 15px; 
+        margin-top: 8px;
+        background-color: transparent;
+        height: 4px;
+    }
+    
+    #whatdoyouwanttolearn{
+        width: 150px;
+        height: 20px;
+        border-radius: 25px;
+        display: flex;
+    }
+    
+    #coursewithbaims{
+        font-size: 25px;
+    }
+    
     #nums{
-        font-size: 30px;
-        
-     }
-     
-     #course{
-         font-size: 15px;
-     
-     }
-     
-     #last{
-        display: flex; 
-        justify-content: center;
-        gap: 150px;
-     }
-     
+       font-size: x-small;
+       
+    }
+    
+    
+    #photo{
+        width: 150px;
+        height: 150px;
+    }
+    
+    #coo{
+        margin-top: 15px;
+        font-size: 12px;
+    }
+    
+    #footer{
+       display: flex; 
+       flex-wrap: wrap;
+       font-size: xx-small;
+       justify-content: center;
+       gap: 50px;
+    }
+    
+    #course{
+        font-size: x-small;
+    }
+    
+    
 }
-

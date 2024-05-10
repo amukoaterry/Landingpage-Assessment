@@ -57,7 +57,8 @@
     /* padding: 5px;  */
     margin-top: 8px;
     background-color: transparent;
-    height: 10px;
+    height: 20px;
+    font-size: 15px;
 }
 
 #whatdoyouwanttolearn{
@@ -102,11 +103,11 @@
 }
 
 #instructor{
-    font-size: 12px;
+    font-size: 17px;
 }
 
 #signin{
-    font-size: 12px;
+    font-size: 17px;
 }
 
 @media screen and (min-width:280px) and (max-width:480px){
@@ -124,8 +125,6 @@
         background-color: black;
         -webkit-text-fill-color: white;
         border-radius: 25px;
-        /* height: 32px; */
-        /* width: 55px; */
     }
     
     #baims{
@@ -147,11 +146,10 @@
         display: flex;
         flex-wrap: wrap;
         font-size: larger;
-        /* flex-wrap: wrap; */
         gap: 10px;
     }
     #Study{
-        font-size: 20px;
+        font-size: 30px;
     }
     
     #white{
@@ -182,14 +180,15 @@
     }
     
     #coursewithbaims{
-        font-size: 25px;
+        font-size: 17px;
     }
     
     #nums{
-       font-size: x-small;
-       
+       font-size: 20px;
+       gap: 10px;
     }
     
+
     
     #photo{
         width: 150px;
@@ -205,12 +204,12 @@
        display: flex; 
        flex-wrap: wrap;
        font-size: xx-small;
-       justify-content: center;
-       gap: 50px;
+       /* justify-content: center; */
+       gap: 20px;
     }
     
     #course{
-        font-size: x-small;
+        font-size: 15px;
     }
     
     
